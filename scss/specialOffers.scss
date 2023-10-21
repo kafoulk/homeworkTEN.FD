@@ -1,0 +1,130 @@
+.specialOffersContainer {
+    max-width:77%;
+    display:flex;
+    margin:0 auto;
+    flex-direction:column;
+    justify-content:center;
+    // background-color:red;
+
+
+    .offersHeading {
+        width:100%;
+        font-family:proximaThin;
+        font-size: 30px;
+        text-align:left;
+        margin-top: 100px;
+    }
+
+    .specialOfferPackages {
+        width:100%;
+        height: 680px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        margin:0 auto;
+        margin-top:-20px;
+        margin-bottom: 50px;
+        .barcelona {
+            width:550px;
+            height:290px;
+            display:flex;
+            flex-direction:row;
+
+            
+            img {
+                width:200px;
+                height:100%;
+            }
+            .offerText {
+                width:350px;                
+                display:flex;
+                flex-direction: column;
+                margin:0 auto;
+                margin-left:20px;
+                text-align:left;
+                justify-content:center;
+
+                .offerTitle {
+                    width:100%;
+                    font-family:proximaThin;
+                    font-size: 30px;
+                    text-align:left;
+                }
+                .offerDiscount {
+                    width:100%;
+                    font-family:proximaThin;
+                    font-size: 20px;
+                    text-align:right;
+                    color:#FF7D38;
+                }
+                .offerInfo {
+                    width:92%;
+                    font-family:gillSans;
+                    font-size: 16px;
+                    text-align:left;
+                }
+                .learnMore {
+                    @include siteButton;
+                    margin-top:60px;
+                    width:133px;
+                    height:40px;
+                    border-radius: 30px;
+                    font-family:gillSans;
+                    font-size:15px;
+                }
+            }
+
+
+
+        }
+        .bangkok {
+            width:540px;
+            height:290px;
+            display:flex;
+            flex-direction:row;
+            
+            img {
+                width:200px;
+                height:100%;
+            }
+            .offerText {
+                width:350px;                
+                display:flex;
+                flex-direction: column;
+                margin:0 auto;
+                margin-left:20px;
+                text-align:left;
+                justify-content:center;
+
+                .offerTitle {
+                    width:100%;
+                    font-family:proximaThin;
+                    font-size: 30px;
+                    text-align:left;
+                }
+                .offerDiscount {
+                    width:100%;
+                    font-family:proximaThin;
+                    font-size: 20px;
+                    text-align:right;
+                    color:#FF7D38;
+                }
+                .offerInfo {
+                    width:92%;
+                    font-family:gillSans;
+                    font-size: 16px;
+                    text-align:left;
+                }
+                .learnMore {
+                    @include siteButton;
+                    margin-top:60px;
+                    width:133px;
+                    height:40px;
+                    border-radius: 30px;
+                    font-family:gillSans;
+                    font-size:15px;
+                }
+            }
+        }
+    }
+}

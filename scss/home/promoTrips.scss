@@ -1,0 +1,122 @@
+.home {
+.promo-trips {
+    max-width:800px;
+    margin:0 auto;
+    margin-top: -50px;
+    min-height:305px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+    .israel {
+        width:235px;
+        height:305px;
+        background-image: url("../images/Group 50.png");
+        color:white;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+
+        h2 {
+            font-family:proximaThin;
+            font-size:60px;
+        }
+
+        .price {
+            font-family:proximaThin;
+            font-size:30px;
+        }
+        
+        .learnMore {
+            @include siteButton;
+            margin-top:60px;
+            width:133px;
+            height:40px;
+            border-radius: 30px;
+            // font-family:gillSans;
+            font-size:15px;
+        }
+
+    }
+
+    .usa {
+        width:235px;
+        height:305px;
+        background-image: url("../images/Group 36.png");
+        color:white;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+
+        h2 {
+            font-family:proximaThin;
+            font-size:60px;
+        }
+
+        .price {
+            font-family:proximaThin;
+            font-size:30px;
+        }
+        
+        .learnMore {
+            @include siteButton;
+            margin-top:60px;
+            width:133px;
+            height:40px;
+            border-radius: 30px;
+            font-family:gillSans;
+            font-size:15px;
+        }
+    }
+
+    .australia {
+        width:235px;
+        height:305px;
+        background-image: url("../images/Group 37.png");
+        color:white;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+
+        h2 {
+            font-family:proximaThin;
+            font-size:60px;
+        }
+
+        .price {
+            font-family:proximaThin;
+            font-size:30px;
+        }
+
+        .learnMore {
+            @include siteButton;
+            margin-top:60px;
+            width:133px;
+            height:40px;
+            border-radius: 30px;
+            font-family:gillSans;
+            font-size:15px;
+        }
+    }
+
+}
+}
+
+@media only screen and (max-width:760px){
+    .home {
+        .promo-trips {
+            flex-direction:column;
+
+            .usa {
+                margin-top:10px;
+            }
+
+            .australia {
+                margin-top:10px;
+            }
+        }
+    }
+}

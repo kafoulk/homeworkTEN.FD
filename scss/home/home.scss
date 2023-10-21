@@ -1,0 +1,57 @@
+.home {
+    .hero {
+        height: 500px;
+        width:100%;
+        background-image: url("../images/Group 49.png");
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+
+
+        .logoHeading {
+            width:232px;
+            font-size:60px;
+            margin-top:160px;
+            color:white;
+        }
+
+        .heroText {
+            width:714px;
+            text-align:center;
+            display:inline-flex;
+            font-size:20px;
+            font-family: GillSansItalic;
+            color:white;
+        }
+        
+        .readMore {
+            width: 120px;
+            padding: 11px 9px;
+            background-color:#79ADDC;
+            text-align:center;
+            font-size:15px;
+            color:white;
+            margin-bottom:50px;
+            border:none;
+            font-family:gillSans;
+            text-transform: uppercase;
+        }
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .hero {
+        width:100%;
+        display:flex;
+        height:500px;
+
+        .heroText {
+            width:300px;
+            display:flex;
+            align-content:center;
+            justify-content:center;
+            
+        }
+    }
+}

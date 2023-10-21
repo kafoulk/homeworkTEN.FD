@@ -1,0 +1,9 @@
+@mixin siteButton($radius:20px){
+    background-color:#79addc;
+    border-radius:$radius;
+    color:white;
+    padding:11px 21px;
+    border:none;
+    font-family:gillSans;
+    text-transform: uppercase;
+}

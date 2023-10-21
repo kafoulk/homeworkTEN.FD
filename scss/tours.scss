@@ -1,0 +1,437 @@
+.tours {
+    width:820px;
+    min-height:1022px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    // background-color:blue;
+    margin:0 auto;
+    margin-bottom: 100px;
+    align-items:center;
+
+
+    .topRow {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+
+        #israel {
+            width:235px;
+            height:305px;
+            background-image: url("../images/Group 50.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin-right:55px;
+        
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+        
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+                
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                text-decoration:none;
+                color:white;
+
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+                
+            }
+        
+        }
+    
+
+        #usa {
+            width:235px;
+            height:305px;
+            background-image: url("../images/Group 36.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+    
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+    
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+            
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+            }
+        }
+        
+        #australia {
+            width:235px;
+            height:305px;
+            background-image: url("../images/Group 37.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin-left:55px;
+    
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+    
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+    
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+            }
+        }
+        
+    }
+
+    
+
+    .secondRow {
+        display:flex;
+        justify-content:space-between;
+        margin:0 auto;
+
+        #newZealand {
+            width:235px;
+            height:305px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/Group 54.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin-right:55px;
+        
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+        
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+                
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+            }
+        
+        }
+    
+
+        #france {
+            width:235px;
+            height:305px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/Group 55.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+    
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+    
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+            
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+            }
+        }
+        
+        #egypt {
+            width:235px;
+            height:305px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/Group 58.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin-left:55px;
+    
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+    
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+    
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+            }
+        }
+        
+    }
+
+    .thirdRow {
+        display:flex;
+        justify-content:center;
+
+        #japan {
+            width:235px;
+            height:305px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/Group 60.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin-right:55px;
+        
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+        
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+                
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+            }
+        
+        }
+    
+
+        #canada {
+            width:235px;
+            height:305px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/Group 63.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+    
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+    
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+            
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+            }
+        }
+        
+        #uae {
+            width:235px;
+            height:305px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/Group 65.png");
+            color:white;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin-left: 55px;
+    
+            .titleName {
+                font-family:proximaThin;
+                font-size:60px;
+            }
+    
+            .price {
+                font-family:proximaThin;
+                font-size:30px;
+            }
+    
+            .learnMore {
+                @include siteButton;
+                margin-top:60px;
+                width:133px;
+                height:40px;
+                border-radius: 30px;
+                font-family:gillSans;
+                font-size:15px;
+                a {
+                    text-decoration:none;
+                    color:white;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:760px){
+    .tours {
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        margin:0 auto;
+
+
+        .topRow {
+            width:auto;
+            flex-direction:column;
+            justify-content:center;
+            margin:0 auto;
+            align-content:center;
+
+            .israel {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+            .usa {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+            .australia {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+
+        }
+
+        .secondRow {
+            width:100%;
+            flex-direction:column;
+            justify-content:center;
+            align-content:center;
+            margin:0 auto;
+            .newZealand {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+            .france {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+            .egypt {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+        }
+
+        .thirdRow {
+            width:100%;
+            flex-direction:column;
+            justify-content:center;
+            align-content:center;
+            margin:0 auto;
+            .japan {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+            .canada {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+            .uae {
+                margin:0 auto;
+                margin-bottom:20px;
+            }
+        }
+    }
+}

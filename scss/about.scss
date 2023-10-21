@@ -1,0 +1,22 @@
+.about {
+    max-width:980px;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    margin:0 auto;
+
+    .aboutHeading {
+        font-size:60px;
+        font-family:proximaThin;
+        margin-top: 150px;
+    }
+
+    .aboutInfo {
+        max-width:980px;
+        display:flex;
+        margin:0 auto;
+        font-family:gillSans;
+        font-size:16px;
+    }
+}
+

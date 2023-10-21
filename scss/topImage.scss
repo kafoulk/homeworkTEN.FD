@@ -1,0 +1,27 @@
+.topImageCont {
+    width:1280;
+    height:400px;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:-50px;
+
+    .topImage {
+        width:980px;
+        height: 200px;
+        display:flex;
+        margin:0 auto;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.1))), url("../images/76fb267b620388f239c4e478d18efb70.png");
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+
+        h1 {
+            font-family:proximaThin;
+            color:white;
+            font-size:60px;
+        }
+    
+    }
+}

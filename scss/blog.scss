@@ -1,0 +1,154 @@
+.blogContainer {
+    max-width:77%;
+    min-height:980px;
+    display:flex;
+    margin:0 auto;
+    flex-direction:column;
+    justify-content:center;
+    // background-color:red;
+
+
+    .blogHeading {
+        width:100%;
+        font-family:proximaThin;
+        font-size: 30px;
+        text-align:left;
+        display:flex;
+        margin:0 auto;
+        margin-top: 100px;
+    }
+
+    .blogPosts {
+        width:100%;
+        height: 680px;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        margin:0 auto;
+        margin-top:50px;
+        margin-bottom: 100px;
+        .blogPostOne {
+            width:100%;
+            height:290px;
+            display:flex;
+            margin:0 auto;
+            flex-direction:column;
+            justify-content:center;
+
+            .blogTop {
+                width:100%;
+                display:flex;
+                flex-direction:row;
+                justify-content:space-between;
+                margin:0 auto;
+                .blogDate {
+                    width:60px;
+                    height:60px;
+                    background-color: #79ADDC;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:center;
+                    text-align:center;
+                    font-size: 12px;
+                    font-family:gillSans;
+                    color:white;
+                    .date {
+                        font-size:22px;
+                        font-family:gillSans;
+                    }
+                }
+                img {
+                    width:900px;
+                    height:100%;
+                }
+            }
+            .blogText {
+                width:380px;                
+                display:flex;
+                flex-direction: column;
+                margin:0 auto;
+                margin-left:85px;
+                text-align:left;
+                justify-content:center;
+
+                .blogTitle {
+                    width:100%;
+                    font-family:proximaThin;
+                    font-size: 30px;
+                    text-align:left;
+                }
+                .blogInfo {
+                    width:100%;
+                    font-family:gillSans;
+                    font-size: 13px;
+                    text-align:left;
+                }
+            }
+
+
+
+        }
+        .blogPostTwo {
+            width:100%;
+            height:290px;
+            display:flex;
+            margin:0 auto;
+            flex-direction:column;
+            justify-content:center;
+
+            .blogTop {
+                width:100%;
+                display:flex;
+                flex-direction:row;
+                justify-content:space-between;
+                margin:0 auto;
+                .blogDate {
+                    width:60px;
+                    height:60px;
+                    background-color: #79ADDC;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:center;
+                    text-align:center;
+                    font-size: 12px;
+                    font-family:gillSans;
+                    color:white;
+                    .date {
+                        font-size:22px;
+                        font-family:gillSans;
+                    }
+                }
+                img {
+                    width:900px;
+                    height:100%;
+                }
+            }
+            .blogText {
+                width:380px;                
+                display:flex;
+                flex-direction: column;
+                margin:0 auto;
+                margin-left:85px;
+                text-align:left;
+                justify-content:center;
+
+                .blogTitle {
+                    width:100%;
+                    font-family:proximaThin;
+                    font-size: 30px;
+                    text-align:left;
+                }
+                .blogInfo {
+                    width:100%;
+                    font-family:gillSans;
+                    font-size: 13px;
+                    text-align:left;
+
+                }
+            }
+
+
+
+        }
+    }
+}
